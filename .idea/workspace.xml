@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8f808cee-f995-4e24-be23-387b3f2c0f2c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/kafka_cluster_setup/config/kafka-1/server.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka_cluster_setup/config/kafka-2/server.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka_cluster_setup/config/kafka-3/server.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka_cluster_setup/dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka_cluster_setup/start-kafka.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka_cluster_setup/zookeeper/dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka_cluster_setup/zookeeper/start-zookeeper.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/code/gmanish/kafka/wikimedia/producer/ConfigManager.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/code/gmanish/kafka/wikimedia/producer/WikimediaChangeHandler.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/code/gmanish/kafka/wikimedia/producer/WikimediaProducer.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Object" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="26pa8g7pGZQWOA9CbkIP75lb73E" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/kafka_cluster_setup/config/kafka-3" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\BigData\AWS\WikiMedia\kafka_cluster_setup\config\kafka-3" />
+      <recent name="C:\BigData\AWS\WikiMedia\kafka_cluster_setup\config\kafka-2" />
+      <recent name="C:\BigData\AWS\WikiMedia\kafka_cluster_setup\config" />
+      <recent name="C:\BigData\AWS\WikiMedia\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="code.gmanish.kafka.wikimedia.producer" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
+    <configuration name="WikimediaProducer" type="Application" factoryName="Application" temporary="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="code.gmanish.kafka.wikimedia.producer.WikimediaProducer" />
+      <module name="WikiMedia" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.WikimediaProducer" />
+      <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+        <item itemvalue="Application.WikimediaProducer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8f808cee-f995-4e24-be23-387b3f2c0f2c" name="Changes" comment="" />
+      <created>1648122826736</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648122826736</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
