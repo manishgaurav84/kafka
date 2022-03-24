@@ -4,20 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f808cee-f995-4e24-be23-387b3f2c0f2c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kafka_cluster_setup/config/kafka-1/server.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka_cluster_setup/config/kafka-2/server.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka_cluster_setup/config/kafka-3/server.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka_cluster_setup/dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka_cluster_setup/start-kafka.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka_cluster_setup/zookeeper/dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka_cluster_setup/zookeeper/start-zookeeper.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/code/gmanish/kafka/wikimedia/producer/ConfigManager.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/code/gmanish/kafka/wikimedia/producer/WikimediaChangeHandler.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/code/gmanish/kafka/wikimedia/producer/WikimediaProducer.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+    <list default="true" id="8f808cee-f995-4e24-be23-387b3f2c0f2c" name="Changes" comment="Add docker files for creating cluster">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/code/gmanish/kafka/wikimedia/producer/ConfigManager$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/code/gmanish/kafka/wikimedia/producer/ConfigManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/code/gmanish/kafka/wikimedia/producer/WikimediaChangeHandler$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/code/gmanish/kafka/wikimedia/producer/WikimediaChangeHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/code/gmanish/kafka/wikimedia/producer/WikimediaProducer$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/code/gmanish/kafka/wikimedia/producer/WikimediaProducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +111,14 @@
       <option name="presentableId" value="Default" />
       <updated>1648122826736</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add docker files for creating cluster">
+      <created>1648143535885</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1648143535885</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,5 +131,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add docker files for creating cluster" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add docker files for creating cluster" />
   </component>
 </project>
