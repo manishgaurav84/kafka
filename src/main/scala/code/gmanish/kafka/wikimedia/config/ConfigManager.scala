@@ -1,4 +1,4 @@
-package code.gmanish.kafka.wikimedia.producer
+package code.gmanish.kafka.wikimedia.config
 
 import com.typesafe.config.ConfigFactory
 
@@ -18,6 +18,19 @@ object ConfigManager {
 
   def getWikiMediaURl() = {
     config.getString("WikiMedia.Url")
+  }
+
+  def getElasticSearchConnString(): String = {
+    config.getString("Elastic.connString")
+  }
+  def getElasticSearchPort(): String = {
+    config.getString("Elastic.port")
+  }
+  def getElasticSearchHost(): String = {
+    config.getString("Elastic.host")
+  }
+  def getElasticSearchScheme(): String = {
+    config.getString("Elastic.scheme")
   }
 
 }
